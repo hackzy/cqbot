@@ -6,7 +6,6 @@ class myPlugin(Plugin):
     def __init__(self, bot, cqapi, plugin_config):
         super().__init__(bot, cqapi, plugin_config)
         #self.text = plugin_config["text"]
-        self.checkIns = []
         bot.command(self.usr_checkin, "签到", {
             "type": "all"
         })

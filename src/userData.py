@@ -5,7 +5,7 @@ import random
 class user:
     def __init__(self,plugin) -> None:
         self.plugin = plugin
-        
+        self.checkIns = []
     def getInfo(self,sender):
         if os.path.exists('./data/' + str(sender.id) + '.json'):
             with open('./data/' + str(sender.id) + '.json','r',encoding='utf8') as file:
@@ -26,13 +26,23 @@ class user:
             json.dump(saveData,file,ensure_ascii=False,indent=2)
             file.close()
             
+    def getCheckIns(self):
+        with open('./data/checkin.json','r',encoding='utf8') as file:
+            self.checkIns = json.load(file)
+
+    def setCheckIns(self):
+        with open('./data/checkin.json','w',encoding='utf8') as file:
+            json.dump(self.checkIns,file,ensure_ascii=False,indent=2)
+
     def checkIn(self,sender):
-        if sender.id not in self.plugin.checkIns:
+        self.getCheckIns()
+        if sender.id not in self.checkIns:
             self.getInfo(sender)
             self.days += 1
             addPoints = random.randint(1,10)
             self.points += addPoints
-            self.plugin.checkIns.append(sender.id)
+            self.checkIns.append(sender.id)
+            self.setCheckIns()
             self.saveInfo(sender)
             message = getAvatar(sender.id) + '\n'
             message += '🆔' + sender.nickname + '\n'

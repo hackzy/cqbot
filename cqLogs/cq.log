@@ -312,3 +312,46 @@ AttributeError: 'user' object has no attribute 'qq'
 [0m[2023-07-24 18:29:21,137][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·şÎñ! bot qq:1755203518[0m
 [0m[2023-07-24 18:29:28,424][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
 [0m[2023-07-24 18:29:44,510][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-24 18:30:31,272][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼ş: myPlugin[0m
+[0m[2023-07-24 18:30:31,276][MainThread/INFO] PyCqBot: ÕıÔÚÁ¬½Ó go-cqhttp websocket ·şÎñ[0m
+[0m[2023-07-24 18:30:31,317][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·şÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:30:39,613][command/INFO] PyCqBot: ÔŞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-24 18:30:58,152][command/INFO] PyCqBot: ÔŞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-24 18:37:38,253][command/INFO] PyCqBot: hackzy (qq=959683906) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-24 19:46:33,128][command/INFO] PyCqBot: ´óÍëÃæ (qq=373047586,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-24 19:47:35,813][command/INFO] PyCqBot: »¨ÑúË®Ï« (qq=1191921403,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-24 19:47:41,705][asyncHttp_loop/ERROR] PyCqBot: api ·¢Éú´íÎó SEND_MSG_API_ERROR: send group message failed: blocked by server code: 100[0m
+[0m[2023-07-24 19:49:20,518][MainThread/WARNING] PyCqBot: no close frame received or sent[0m
+[0m[2023-07-24 19:49:20,521][MainThread/WARNING] PyCqBot: 10Ãëºó ÖØĞÂÁ¬½Ó websocket ·şÎñ (1/3)[0m
+[0m[2023-07-24 19:49:30,524][MainThread/INFO] PyCqBot: ÕıÔÚÁ¬½Ó go-cqhttp websocket ·şÎñ[0m
+[0m[2023-07-24 19:49:32,552][MainThread/WARNING] PyCqBot: [WinError 1225] Ô¶³Ì¼ÆËã»ú¾Ü¾øÍøÂçÁ¬½Ó¡£[0m
+[0m[2023-07-24 19:49:32,553][MainThread/WARNING] PyCqBot: 10Ãëºó ÖØĞÂÁ¬½Ó websocket ·şÎñ (2/3)[0m
+[0m[2023-07-24 19:49:42,555][MainThread/INFO] PyCqBot: ÕıÔÚÁ¬½Ó go-cqhttp websocket ·şÎñ[0m
+[0m[2023-07-24 19:49:44,587][MainThread/WARNING] PyCqBot: [WinError 1225] Ô¶³Ì¼ÆËã»ú¾Ü¾øÍøÂçÁ¬½Ó¡£[0m
+[0m[2023-07-24 19:49:44,588][MainThread/WARNING] PyCqBot: 10Ãëºó ÖØĞÂÁ¬½Ó websocket ·şÎñ (3/3)[0m
+[0m[2023-07-24 19:49:54,590][MainThread/INFO] PyCqBot: ÕıÔÚÁ¬½Ó go-cqhttp websocket ·şÎñ[0m
+[0m[2023-07-24 19:49:56,638][MainThread/WARNING] PyCqBot: [WinError 1225] Ô¶³Ì¼ÆËã»ú¾Ü¾øÍøÂçÁ¬½Ó¡£[0m
+[0m[2023-07-24 19:49:56,639][MainThread/WARNING] PyCqBot: 10Ãëºó ÖØĞÂÁ¬½Ó websocket ·şÎñ (4/3)[0m
+[0m[2023-07-24 19:50:06,641][MainThread/CRITICAL] PyCqBot: ÎŞ·¨Á¬½Ó websocket ·şÎñ host: ws://127.0.0.1:8080[0m
+[0m[2023-07-24 19:53:07,038][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼ş: myPlugin[0m
+[0m[2023-07-24 19:53:07,042][MainThread/INFO] PyCqBot: ÕıÔÚÁ¬½Ó go-cqhttp websocket ·şÎñ[0m
+[0m[2023-07-24 19:53:07,091][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·şÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 20:06:15,376][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼ş: myPlugin[0m
+[0m[2023-07-24 20:06:15,380][MainThread/INFO] PyCqBot: ÕıÔÚÁ¬½Ó go-cqhttp websocket ·şÎñ[0m
+[0m[2023-07-24 20:06:15,422][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·şÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 20:06:24,719][command/INFO] PyCqBot: ÔŞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-24 20:06:24,739][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËĞĞÊ±´íÎó... Error: [Errno 2] No such file or directory: './data/checkin.json'[0m
+[0m[2023-07-24 20:06:24,740][command/ERROR] PyCqBot: [Errno 2] No such file or directory: './data/checkin.json'[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "f:\python\cqbot\plugin\myPlugin\myPlugin.py", line 16, in usr_checkin
+    ms = u.checkIn(message.sender)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\python\cqbot\src\userData.py", line 38, in checkIn
+    self.getCheckIns()
+  File "f:\python\cqbot\src\userData.py", line 30, in getCheckIns
+    with open('./data/checkin.json','r',encoding='utf8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/checkin.json'
+[0m[2023-07-24 20:06:29,928][asyncHttp_loop/ERROR] PyCqBot: api ·¢Éú´íÎó SEND_MSG_API_ERROR: send group message failed: blocked by server code: 100[0m
