@@ -26,3 +26,289 @@ KeyError: 'text'
 [0m[2023-07-24 11:45:56,222][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
 [0m[2023-07-24 11:45:56,227][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
 [0m[2023-07-24 11:45:56,271][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 11:54:20,336][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 11:54:20,340][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 11:54:20,385][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 11:54:31,347][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: test[0m
+[0m[2023-07-24 15:45:41,547][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 15:45:41,552][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 15:45:41,589][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 15:45:58,772][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: test[0m
+[0m[2023-07-24 15:46:00,312][asyncHttp_loop/ERROR] PyCqBot: api ·¢Éú´íÎó SEND_MSG_API_ERROR: send group message failed: blocked by server code: 100[0m
+[0m[2023-07-24 15:46:53,825][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 15:46:53,830][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 15:46:53,874][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 15:47:03,600][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: test[0m
+[0m[2023-07-24 15:50:42,202][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 15:50:42,206][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 15:50:42,243][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 15:50:56,131][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: test[0m
+[0m[2023-07-24 16:05:41,188][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 16:05:41,190][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 16:05:41,194][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 16:05:41,241][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 16:07:10,256][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 16:07:10,258][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 16:07:10,262][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 16:07:10,298][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 16:08:41,761][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 16:08:41,762][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 16:08:41,766][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 16:08:41,801][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 16:09:28,756][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 16:09:28,757][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 16:09:28,761][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 16:09:28,799][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 16:10:36,103][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 16:10:36,104][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 16:10:36,108][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 16:10:36,143][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 16:11:41,686][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 16:11:41,687][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 16:11:41,691][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 16:11:41,725][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 16:13:08,547][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 16:13:08,552][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 16:13:08,589][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 16:13:21,829][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: test[0m
+[0m[2023-07-24 16:13:22,734][command/INFO] PyCqBot: Ö¸Áî test ÔËÐÐÊ±´íÎó... Error: string indices must be integers, not 'str'[0m
+[0m[2023-07-24 16:13:22,736][command/ERROR] PyCqBot: string indices must be integers, not 'str'[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 781, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "f:\python\cqbot\plugin\myPlugin\myPlugin.py", line 16, in test_plugin
+    message.reply_not_code(getAvatar(message.sender.id)+'\n'+'µÈ¼¶£º'+getLevel(message.sender.id))
+                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\python\cqbot\src\basicFunc.py", line 7, in getLevel
+    return json.text['info']['level']
+           ~~~~~~~~~^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+[0m[2023-07-24 16:14:27,162][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 16:14:27,167][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 16:14:27,205][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 16:14:37,954][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: test[0m
+[0m[2023-07-24 16:14:38,634][command/INFO] PyCqBot: Ö¸Áî test ÔËÐÐÊ±´íÎó... Error: string indices must be integers, not 'str'[0m
+[0m[2023-07-24 16:14:38,636][command/ERROR] PyCqBot: string indices must be integers, not 'str'[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 781, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "f:\python\cqbot\plugin\myPlugin\myPlugin.py", line 16, in test_plugin
+    message.reply_not_code(getAvatar(message.sender.id)+'\n'+'µÈ¼¶£º'+getLevel(message.sender.id))
+                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\python\cqbot\src\basicFunc.py", line 7, in getLevel
+    return str(json.text['info']['level'])
+               ~~~~~~~~~^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+[0m[2023-07-24 16:16:36,681][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 16:16:36,685][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 16:16:36,721][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 16:16:53,965][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: test[0m
+[0m[2023-07-24 16:17:35,316][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 16:17:35,320][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 16:17:35,359][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 16:17:44,638][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: test[0m
+[0m[2023-07-24 16:42:21,339][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: test[0m
+[0m[2023-07-24 17:02:02,076][command/INFO] PyCqBot: 13EÊÕ±äÒì¾«ÆÇ (qq=359110526,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: test[0m
+[0m[2023-07-24 17:16:20,249][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 17:16:20,250][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 17:16:20,254][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 17:16:20,293][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 17:17:17,491][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 17:17:17,492][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 17:17:17,496][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 17:17:17,531][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 17:19:00,520][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 17:19:00,521][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 17:19:00,525][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 17:19:00,571][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 17:19:23,963][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 17:19:23,964][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 17:19:23,968][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 17:19:24,005][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 17:21:26,281][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 17:21:26,282][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 17:21:26,286][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 17:21:26,325][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 17:23:25,109][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 17:23:25,110][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 17:23:25,112][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 17:23:25,131][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 17:24:17,162][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 17:24:17,163][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 17:24:17,167][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 17:24:17,209][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 17:25:06,577][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 17:25:06,578][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 17:25:06,582][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 17:25:06,617][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 17:30:06,120][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 17:30:06,121][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 17:30:06,126][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 17:30:06,163][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 17:34:17,664][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 17:34:17,665][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 17:34:17,670][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 17:34:17,707][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 17:37:29,038][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 17:37:29,039][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 17:37:29,043][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 17:37:29,078][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 17:41:30,655][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 17:41:30,656][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 17:41:30,659][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 17:41:30,697][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 17:41:56,495][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 17:41:56,496][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 17:41:56,500][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 17:41:56,560][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 17:42:54,666][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 17:42:54,667][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 17:42:54,671][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 17:42:54,706][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 17:55:35,887][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 17:55:35,888][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 17:55:35,891][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 17:55:35,933][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:14:07,981][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 18:14:07,982][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 18:14:07,986][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 18:14:08,020][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:14:57,214][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 18:14:57,215][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 18:14:57,220][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 18:14:57,258][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:15:56,150][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 18:15:56,151][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 18:15:56,155][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 18:15:56,202][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:16:29,132][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 18:16:29,137][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 18:16:29,177][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:16:39,886][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 18:16:39,887][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 18:16:39,890][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 18:16:39,926][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:16:59,420][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 18:16:59,421][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 18:16:59,425][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 18:16:59,462][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:18:01,078][MainThread/ERROR] PyCqBot: plugin Ä¿Â¼ÏÂ²»´æÔÚ²å¼þ myPlugin [0m
+[0m[2023-07-24 18:18:01,079][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 18:18:01,082][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 18:18:01,119][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:18:18,341][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 18:18:18,345][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 18:18:18,381][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:18:37,112][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-24 18:18:37,116][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: No module named 'userData'[0m
+[0m[2023-07-24 18:18:37,117][command/ERROR] PyCqBot: No module named 'userData'[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "f:\python\cqbot\plugin\myPlugin\myPlugin.py", line 15, in usr_checkin
+    import userData
+ModuleNotFoundError: No module named 'userData'
+[0m[2023-07-24 18:19:32,877][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 18:19:32,882][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 18:19:32,917][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:19:42,164][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-24 18:19:42,174][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: No module named 'userData'[0m
+[0m[2023-07-24 18:19:42,176][command/ERROR] PyCqBot: No module named 'userData'[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "f:\python\cqbot\plugin\myPlugin\myPlugin.py", line 15, in usr_checkin
+    from userData import user
+ModuleNotFoundError: No module named 'userData'
+[0m[2023-07-24 18:20:19,775][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 18:20:19,779][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 18:20:19,814][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:20:32,570][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-24 18:20:32,580][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: No module named 'basicFunc'[0m
+[0m[2023-07-24 18:20:32,581][command/ERROR] PyCqBot: No module named 'basicFunc'[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "f:\python\cqbot\plugin\myPlugin\myPlugin.py", line 15, in usr_checkin
+    from src.userData import user
+  File "f:\python\cqbot\src\userData.py", line 3, in <module>
+    from basicFunc import *
+ModuleNotFoundError: No module named 'basicFunc'
+[0m[2023-07-24 18:21:04,920][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 18:21:04,925][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 18:21:04,961][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:21:13,118][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-24 18:21:13,186][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: can only concatenate str (not "Group_User") to str[0m
+[0m[2023-07-24 18:21:13,187][command/ERROR] PyCqBot: can only concatenate str (not "Group_User") to str[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "f:\python\cqbot\plugin\myPlugin\myPlugin.py", line 17, in usr_checkin
+    ms = u.checkIn(message.sender)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\python\cqbot\src\userData.py", line 32, in checkIn
+    self.getInfo(sender)
+  File "f:\python\cqbot\src\userData.py", line 10, in getInfo
+    if os.path.exists('./data/'+sender+'.json'):
+                      ~~~~~~~~~^~~~~~~
+TypeError: can only concatenate str (not "Group_User") to str
+[0m[2023-07-24 18:25:03,167][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 18:25:03,172][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 18:25:03,211][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:25:48,944][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 18:25:48,948][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 18:25:48,992][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:25:55,599][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-24 18:25:55,610][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: 'user' object has no attribute 'qq'[0m
+[0m[2023-07-24 18:25:55,611][command/ERROR] PyCqBot: 'user' object has no attribute 'qq'[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "f:\python\cqbot\plugin\myPlugin\myPlugin.py", line 17, in usr_checkin
+    ms = u.checkIn(message.sender)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\python\cqbot\src\userData.py", line 37, in checkIn
+    self.saveInfo()
+  File "f:\python\cqbot\src\userData.py", line 26, in saveInfo
+    with open('./data/' + str(self.qq) + '.json','w') as file:
+                              ^^^^^^^
+AttributeError: 'user' object has no attribute 'qq'
+[0m[2023-07-24 18:27:41,034][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 18:27:41,039][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 18:27:41,077][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:27:47,338][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-24 18:27:47,355][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: [Errno 2] No such file or directory: './data/959683906.json'[0m
+[0m[2023-07-24 18:27:47,356][command/ERROR] PyCqBot: [Errno 2] No such file or directory: './data/959683906.json'[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "f:\python\cqbot\plugin\myPlugin\myPlugin.py", line 17, in usr_checkin
+    ms = u.checkIn(message.sender)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\python\cqbot\src\userData.py", line 36, in checkIn
+    self.saveInfo(sender)
+  File "f:\python\cqbot\src\userData.py", line 25, in saveInfo
+    with open('./data/' + str(sender.id) + '.json','w') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/959683906.json'
+[0m[2023-07-24 18:28:26,817][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 18:28:26,821][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 18:28:26,860][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:28:37,081][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-24 18:28:37,091][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: 'user' object has no attribute 'qq'[0m
+[0m[2023-07-24 18:28:37,092][command/ERROR] PyCqBot: 'user' object has no attribute 'qq'[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "f:\python\cqbot\plugin\myPlugin\myPlugin.py", line 17, in usr_checkin
+    ms = u.checkIn(message.sender)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\python\cqbot\src\userData.py", line 37, in checkIn
+    message = getAvatar(self.qq) + '\n'
+                        ^^^^^^^
+AttributeError: 'user' object has no attribute 'qq'
+[0m[2023-07-24 18:29:21,095][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-24 18:29:21,100][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 18:29:21,137][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 18:29:28,424][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-24 18:29:44,510][command/INFO] PyCqBot: hackzy (qq=959683906,ÈººÅ=454661594) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
