@@ -1,0 +1,28 @@
+[0m[2023-07-24 11:42:53,639][MainThread/ERROR] PyCqBot: ¼ÓÔØ²å¼þ myPlugin Ê±·¢Éú´íÎó: 'text'[0m
+[0m[2023-07-24 11:42:53,640][MainThread/ERROR] PyCqBot: 'text'[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 437, in _import_plugin
+    plugin_obj = eval("plugin_obj.%s(self, self.cqapi, %s)" % (plugin, "{}"))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "f:\python\cqbot\plugin\myPlugin\myPlugin.py", line 9, in __init__
+    self.text = plugin_config["text"]
+                ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'text'
+[0m[2023-07-24 11:42:53,646][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 11:42:53,651][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 11:42:53,852][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-24 11:45:56,214][MainThread/ERROR] PyCqBot: ¼ÓÔØ²å¼þ myPlugin Ê±·¢Éú´íÎó: 'text'[0m
+[0m[2023-07-24 11:45:56,215][MainThread/ERROR] PyCqBot: 'text'[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 437, in _import_plugin
+    plugin_obj = eval("plugin_obj.%s(self, self.cqapi, %s)" % (plugin, "{}"))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "f:\python\cqbot\plugin\myPlugin\myPlugin.py", line 9, in __init__
+    self.text = plugin_config["text"]
+                ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'text'
+[0m[2023-07-24 11:45:56,222][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: ['myPlugin'][0m
+[0m[2023-07-24 11:45:56,227][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-24 11:45:56,271][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
