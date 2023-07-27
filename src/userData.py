@@ -1,13 +1,14 @@
 import json
 import os
-from src.basicFunc import *
+from .basicFunc import *
 import random
 from datetime import datetime
 import threading
 class user:
     def __init__(self,plugin) -> None:
         self.plugin = plugin
-        self.checkIns = []
+        self.checkIns = {}
+        
     def getInfo(self,sender):
         if os.path.exists('./data/' + str(sender.id) + '.json'):
             with open('./data/' + str(sender.id) + '.json','r',encoding='utf8') as file:
@@ -28,24 +29,28 @@ class user:
             json.dump(saveData,file,ensure_ascii=False,indent=2)
             file.close()
             
-    def getCheckIns(self):
-        if os.path.exists('./data/checkin.json'):
-            with open('./data/checkin.json','r',encoding='utf8') as file:
-                self.checkIns = list(json.load(file))
+    def getCheckIns(self,days):
+        if os.path.exists(os.getcwd() + '/data/checkin.json'):
+            with open(os.getcwd() + '/data/checkin.json','r',encoding='utf8') as file:
+                self.checkIns = json.load(file)
+                if days not in self.checkIns:
+                    self.checkIns.update({days:[]})
         else:
-            self.setCheckIns()
+            self.setCheckIns(days)
     def setCheckIns(self):
-        with open('./data/checkin.json','w',encoding='utf8') as file:
+        with open(os.getcwd() + '/data/checkin.json','w',encoding='utf8') as file:
             json.dump(self.checkIns,file,ensure_ascii=False,indent=2)
 
     def checkIn(self,sender):
-        self.getCheckIns()
-        if sender.id not in self.checkIns:
+        date = datetime.now()
+        days = str(date.month) + '.' + str(date.day)
+        self.getCheckIns(days)
+        if sender.id not in self.checkIns[days]:
             self.getInfo(sender)
             self.days += 1
             addPoints = random.randint(1,10)
             self.points += addPoints
-            self.checkIns.append(sender.id)
+            self.checkIns[days].append(sender.id)
             self.setCheckIns()
             self.saveInfo(sender)
             cq_at = '[CQ:at,qq=%s]'%(sender.id)
@@ -61,7 +66,7 @@ class user:
     
     def resetCheckIns(self):
         with open('./data/checkin.json','w',encoding='utf8') as file:
-            self.checkIns = []
+            self.checkIns = {}
             json.dump(self.checkIns,file,ensure_ascii=False,indent=2)
             task = threading.Timer(self.getTime(),self.resetCheckIns)
             task.daemon = True
