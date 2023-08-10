@@ -34,9 +34,9 @@ class user:
             with open(os.getcwd() + '/data/checkin.json','r',encoding='utf8') as file:
                 self.checkIns = json.load(file)
                 if days not in self.checkIns:
-                    self.checkIns.update({days:[]})
+                    self.checkIns = {days:[]}
         else:
-            self.setCheckIns(days)
+            self.setCheckIns()
     def setCheckIns(self):
         with open(os.getcwd() + '/data/checkin.json','w',encoding='utf8') as file:
             json.dump(self.checkIns,file,ensure_ascii=False,indent=2)

@@ -1,0 +1,416 @@
+[0m[2023-07-26 09:32:54,667][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-26 09:32:54,673][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 09:32:54,723][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 09:33:05,889][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 09:33:05,925][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: 'utf-8' codec can't decode byte 0xc0 in position 6: invalid start byte[0m
+[0m[2023-07-26 09:33:05,926][command/ERROR] PyCqBot: 'utf-8' codec can't decode byte 0xc0 in position 6: invalid start byte[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "f:\python\cqbot\plugin\myPlugin\myPlugin.py", line 16, in usr_checkin
+    ms = u.checkIn(message.sender)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\python\cqbot\src\userData.py", line 44, in checkIn
+    self.getInfo(sender)
+  File "f:\python\cqbot\src\userData.py", line 14, in getInfo
+    data = json.load(file)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+                 ^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc0 in position 6: invalid start byte
+[0m[2023-07-26 09:34:40,820][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 09:38:47,342][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-26 09:38:47,347][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 09:38:47,385][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 09:38:54,080][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 09:38:54,094][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: Expecting value: line 1 column 1 (char 0)[0m
+[0m[2023-07-26 09:38:54,096][command/ERROR] PyCqBot: Expecting value: line 1 column 1 (char 0)[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "f:\python\cqbot\plugin\myPlugin\myPlugin.py", line 16, in usr_checkin
+    ms = u.checkIn(message.sender)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\python\cqbot\src\userData.py", line 42, in checkIn
+    self.getCheckIns()
+  File "f:\python\cqbot\src\userData.py", line 34, in getCheckIns
+    self.checkIns = json.load(file)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[0m[2023-07-26 09:40:46,591][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-26 09:40:46,595][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 09:40:46,631][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 09:41:30,481][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 09:41:30,495][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: Expecting value: line 1 column 1 (char 0)[0m
+[0m[2023-07-26 09:41:30,497][command/ERROR] PyCqBot: Expecting value: line 1 column 1 (char 0)[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "f:\python\cqbot\plugin\myPlugin\myPlugin.py", line 16, in usr_checkin
+    ms = u.checkIn(message.sender)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\python\cqbot\src\userData.py", line 42, in checkIn
+    self.getCheckIns()
+  File "f:\python\cqbot\src\userData.py", line 34, in getCheckIns
+    self.checkIns = json.load(file)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[0m[2023-07-26 09:42:22,749][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-26 09:42:22,754][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 09:42:22,790][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 09:42:32,196][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 09:42:32,207][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: Expecting value: line 1 column 1 (char 0)[0m
+[0m[2023-07-26 09:42:32,208][command/ERROR] PyCqBot: Expecting value: line 1 column 1 (char 0)[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "f:\python\cqbot\plugin\myPlugin\myPlugin.py", line 16, in usr_checkin
+    ms = u.checkIn(message.sender)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "f:\python\cqbot\src\userData.py", line 42, in checkIn
+    self.getCheckIns()
+  File "f:\python\cqbot\src\userData.py", line 34, in getCheckIns
+    self.checkIns = list(json.load(file))
+                         ^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[0m[2023-07-26 09:43:17,104][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-26 09:43:17,108][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 09:43:17,150][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 09:43:28,641][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 09:44:35,026][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-26 09:44:35,031][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 09:44:35,077][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 09:44:42,644][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 12:56:04,194][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-26 12:56:04,199][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 12:56:04,243][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 12:56:46,983][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 14:09:54,422][command/INFO] PyCqBot: ÇÅ±¾ÓÐ²Ë (qq=1174649442,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 14:10:09,053][command/INFO] PyCqBot: ºÚÒ¹ÀïÐ¡°¢ßä (qq=1007361320,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 14:23:32,192][command/INFO] PyCqBot: 500´óÁ¿×ÏÆøÌìÐÇ (qq=1072140513,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 14:50:43,739][command/INFO] PyCqBot: ³ÙÄ« (qq=66441602,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 15:14:35,160][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-26 15:14:35,164][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 15:14:35,202][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 20:10:22,155][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-26 20:10:22,157][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 20:10:22,178][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 20:10:27,216][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 20:10:27,232][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: [Errno 2] No such file or directory: '../data/checkin.json'[0m
+[0m[2023-07-26 20:10:27,233][command/ERROR] PyCqBot: [Errno 2] No such file or directory: '../data/checkin.json'[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "F:\python\cqbot\plugin\myPlugin\myPlugin.py", line 16, in usr_checkin
+    ms = u.checkIn(message.sender)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\cqbot\src\userData.py", line 42, in checkIn
+    self.getCheckIns()
+  File "F:\python\cqbot\src\userData.py", line 36, in getCheckIns
+    self.setCheckIns()
+  File "F:\python\cqbot\src\userData.py", line 38, in setCheckIns
+    with open(r'../data/checkin.json','w',encoding='utf8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../data/checkin.json'
+[0m[2023-07-26 20:10:32,730][asyncHttp_loop/ERROR] PyCqBot: api ·¢Éú´íÎó SEND_MSG_API_ERROR: send group message failed: blocked by server code: 100[0m
+[0m[2023-07-26 20:15:55,660][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-26 20:15:55,662][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 20:15:55,686][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 20:16:00,543][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 20:16:00,555][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: [Errno 2] No such file or directory: '../data/checkin'[0m
+[0m[2023-07-26 20:16:00,555][command/ERROR] PyCqBot: [Errno 2] No such file or directory: '../data/checkin'[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "F:\python\cqbot\plugin\myPlugin\myPlugin.py", line 16, in usr_checkin
+    ms = u.checkIn(message.sender)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\cqbot\src\userData.py", line 42, in checkIn
+    self.getCheckIns()
+  File "F:\python\cqbot\src\userData.py", line 36, in getCheckIns
+    self.setCheckIns()
+  File "F:\python\cqbot\src\userData.py", line 38, in setCheckIns
+    with open(r'../data/checkin','w',encoding='utf8') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../data/checkin'
+[0m[2023-07-26 20:16:05,946][asyncHttp_loop/ERROR] PyCqBot: api ·¢Éú´íÎó SEND_MSG_API_ERROR: send group message failed: blocked by server code: 100[0m
+[0m[2023-07-26 20:16:38,218][MainThread/WARNING] PyCqBot: no close frame received or sent[0m
+[0m[2023-07-26 20:16:38,218][MainThread/WARNING] PyCqBot: 10Ãëºó ÖØÐÂÁ¬½Ó websocket ·þÎñ (1/3)[0m
+[0m[2023-07-26 20:16:48,224][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 20:16:50,249][MainThread/WARNING] PyCqBot: [WinError 1225] Ô¶³Ì¼ÆËã»ú¾Ü¾øÍøÂçÁ¬½Ó¡£[0m
+[0m[2023-07-26 20:16:50,250][MainThread/WARNING] PyCqBot: 10Ãëºó ÖØÐÂÁ¬½Ó websocket ·þÎñ (2/3)[0m
+[0m[2023-07-26 20:17:00,256][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 20:17:00,264][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 20:24:47,561][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-26 20:24:47,563][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 20:24:47,584][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 20:25:31,018][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-26 20:25:31,020][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 20:25:31,045][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 20:27:22,848][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-26 20:27:22,850][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 20:27:22,874][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 20:27:57,863][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-26 20:27:57,867][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 20:27:57,887][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 20:28:06,275][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 20:28:25,304][asyncHttp_loop/ERROR] PyCqBot: api ·¢Éú´íÎó SEND_MSG_API_ERROR: send group message failed: blocked by server code: 100[0m
+[0m[2023-07-26 20:33:08,054][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-26 20:33:08,058][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 20:33:08,080][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 20:33:16,239][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 20:33:16,247][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: unterminated string literal (detected at line 13) (userData.py, line 13)[0m
+[0m[2023-07-26 20:33:16,247][command/ERROR] PyCqBot: unterminated string literal (detected at line 13) (userData.py, line 13)[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "F:\python\cqbot\plugin\myPlugin\myPlugin.py", line 14, in usr_checkin
+    from src.userData import user
+  File "F:\python\cqbot\src\userData.py", line 13
+    if os.path.exists(r'.\data\' + str(sender.id) + '.json'):
+                                                          ^
+SyntaxError: unterminated string literal (detected at line 13)
+[0m[2023-07-26 20:33:21,397][asyncHttp_loop/ERROR] PyCqBot: api ·¢Éú´íÎó SEND_MSG_API_ERROR: send group message failed: blocked by server code: 100[0m
+[0m[2023-07-26 20:39:21,335][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-26 20:39:21,338][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 20:39:21,363][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 20:39:25,207][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 20:39:25,219][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: nt.getcwd() takes no arguments (1 given)[0m
+[0m[2023-07-26 20:39:25,219][command/ERROR] PyCqBot: nt.getcwd() takes no arguments (1 given)[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "F:\python\cqbot\plugin\myPlugin\myPlugin.py", line 16, in usr_checkin
+    ms = u.checkIn(message.sender)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\cqbot\src\userData.py", line 45, in checkIn
+    self.getCheckIns()
+  File "F:\python\cqbot\src\userData.py", line 33, in getCheckIns
+    print(os.getcwd(os.getcwd()))
+          ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: nt.getcwd() takes no arguments (1 given)
+[0m[2023-07-26 20:39:30,435][asyncHttp_loop/ERROR] PyCqBot: api ·¢Éú´íÎó SEND_MSG_API_ERROR: send group message failed: blocked by server code: 100[0m
+[0m[2023-07-26 20:40:41,684][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-26 20:40:41,690][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 20:40:41,715][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 20:40:46,894][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 20:40:52,047][asyncHttp_loop/ERROR] PyCqBot: api ·¢Éú´íÎó SEND_MSG_API_ERROR: send group message failed: blocked by server code: 100[0m
+[0m[2023-07-26 20:41:13,432][MainThread/WARNING] PyCqBot: no close frame received or sent[0m
+[0m[2023-07-26 20:51:20,289][MainThread/WARNING] PyCqBot: 10Ãëºó ÖØÐÂÁ¬½Ó websocket ·þÎñ (1/3)[0m
+[0m[2023-07-26 20:51:30,293][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-26 20:51:30,296][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-26 20:51:39,300][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-26 20:51:44,430][asyncHttp_loop/ERROR] PyCqBot: api ·¢Éú´íÎó SEND_MSG_API_ERROR: send group message failed: blocked by server code: 100[0m
+[0m[2023-07-27 08:41:29,820][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-27 08:41:29,822][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-27 08:41:29,844][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-27 08:41:35,448][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 09:21:19,234][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 09:22:15,523][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-27 09:22:15,526][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-27 09:22:15,547][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-27 09:22:21,912][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 09:22:21,919][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: 'list' object has no attribute 'update'[0m
+[0m[2023-07-27 09:22:21,919][command/ERROR] PyCqBot: 'list' object has no attribute 'update'[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "F:\python\cqbot\plugin\myPlugin\myPlugin.py", line 16, in usr_checkin
+    ms = u.checkIn(message.sender)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\cqbot\src\userData.py", line 47, in checkIn
+    self.getCheckIns(days)
+  File "F:\python\cqbot\src\userData.py", line 37, in getCheckIns
+    self.checkIns.update({days:[]})
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'update'
+[0m[2023-07-27 09:25:54,347][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-27 09:25:54,349][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-27 09:25:54,373][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-27 09:25:59,994][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 09:25:59,994][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 09:26:00,022][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: 'list' object has no attribute 'update'[0m
+[0m[2023-07-27 09:26:00,023][command/ERROR] PyCqBot: 'list' object has no attribute 'update'[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "F:\python\cqbot\plugin\myPlugin\myPlugin.py", line 16, in usr_checkin
+    ms = u.checkIn(message.sender)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\cqbot\src\userData.py", line 47, in checkIn
+    self.getCheckIns(days)
+  File "F:\python\cqbot\src\userData.py", line 37, in getCheckIns
+    self.checkIns.update({days:[]})
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'update'
+[0m[2023-07-27 09:29:13,099][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-27 09:29:13,104][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-27 09:29:13,125][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-27 09:30:11,269][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 09:30:11,278][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: Expecting value: line 1 column 1 (char 0)[0m
+[0m[2023-07-27 09:30:11,278][command/ERROR] PyCqBot: Expecting value: line 1 column 1 (char 0)[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "F:\python\cqbot\plugin\myPlugin\myPlugin.py", line 16, in usr_checkin
+    ms = u.checkIn(message.sender)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\cqbot\src\userData.py", line 47, in checkIn
+    self.getCheckIns(days)
+  File "F:\python\cqbot\src\userData.py", line 35, in getCheckIns
+    self.checkIns = dict(json.load(file))
+                         ^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[0m[2023-07-27 09:37:24,607][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-27 09:37:24,611][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-27 09:37:24,634][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-27 09:37:34,276][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 09:37:34,294][command/INFO] PyCqBot: Ö¸Áî Ç©µ½ ÔËÐÐÊ±´íÎó... Error: user.setCheckIns() missing 1 required positional argument: 'days'[0m
+[0m[2023-07-27 09:37:34,295][command/ERROR] PyCqBot: user.setCheckIns() missing 1 required positional argument: 'days'[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycqBot\cqHttpApi.py", line 780, in run_command
+    self.__commandList[command]["function"](commandData, message)
+  File "F:\python\cqbot\plugin\myPlugin\myPlugin.py", line 16, in usr_checkin
+    ms = u.checkIn(message.sender)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\cqbot\src\userData.py", line 55, in checkIn
+    self.setCheckIns()
+TypeError: user.setCheckIns() missing 1 required positional argument: 'days'
+[0m[2023-07-27 09:40:27,219][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-27 09:40:27,222][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-27 09:40:27,244][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-27 09:40:32,403][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 09:51:12,968][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-27 09:51:12,972][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-27 09:51:12,995][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-27 09:51:36,792][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 09:58:16,335][command/INFO] PyCqBot: hackzy (qq=959683906) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 11:09:23,289][command/INFO] PyCqBot: 13EÊÕ±äÒì¾«ÆÇ (qq=359110526,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 12:32:15,538][command/INFO] PyCqBot: ³ÙÄ« (qq=66441602,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 12:41:52,781][command/INFO] PyCqBot: ºÚÒ¹ÀïÐ¡°¢ßä (qq=1007361320,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 13:18:58,006][command/INFO] PyCqBot: Å¶»í (qq=969909864,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 15:15:27,522][command/INFO] PyCqBot: ´óÍëÃæ (qq=373047586,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 16:43:39,604][command/INFO] PyCqBot: ¶þ·ÖÖ®Ò» (qq=553747469,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 17:27:22,786][command/INFO] PyCqBot: ³ÙÄ« (qq=66441602,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 19:27:42,727][asyncHttp_loop/ERROR] PyCqBot: Error on reading from the event loop self pipe
+loop: <ProactorEventLoop running=True closed=False debug=False>[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 792, in _loop_self_reading
+    f.result()  # may raise
+    ^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 471, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 121] ÐÅºÅµÆ³¬Ê±Ê±¼äÒÑµ½
+[0m[2023-07-27 20:48:14,249][command/INFO] PyCqBot: ÂýÑòÑò (qq=1429308348,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 20:59:39,503][command/INFO] PyCqBot: 109......Öî¸ðÁÁ (qq=1160464770,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 21:00:05,845][command/INFO] PyCqBot: 109......Öî¸ðÁÁ (qq=1160464770,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 21:02:16,613][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-27 21:02:16,618][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-27 21:02:16,713][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-27 21:23:31,702][command/INFO] PyCqBot: ÂýÑòÑò (qq=1429308348,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-27 23:23:51,975][asyncHttp_loop/ERROR] PyCqBot: Error on reading from the event loop self pipe
+loop: <ProactorEventLoop running=True closed=False debug=False>[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 792, in _loop_self_reading
+    f.result()  # may raise
+    ^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 471, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 121] ÐÅºÅµÆ³¬Ê±Ê±¼äÒÑµ½
+[0m[2023-07-28 01:50:13,018][command/INFO] PyCqBot: ÔÞÖúÁªÏµÈºÖ÷ (qq=959683906,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-28 01:52:53,092][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-28 01:52:53,096][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-28 01:52:53,120][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-28 04:39:02,920][MainThread/WARNING] PyCqBot: no close frame received or sent[0m
+[0m[2023-07-28 09:30:24,256][MainThread/WARNING] PyCqBot: 10Ãëºó ÖØÐÂÁ¬½Ó websocket ·þÎñ (1/3)[0m
+[0m[2023-07-28 09:30:34,258][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-28 09:30:34,268][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-28 09:33:53,063][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-28 09:33:53,068][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-28 09:33:53,092][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-28 12:19:49,703][asyncHttp_loop/ERROR] PyCqBot: Error on reading from the event loop self pipe
+loop: <ProactorEventLoop running=True closed=False debug=False>[0m
+Traceback (most recent call last):
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 792, in _loop_self_reading
+    f.result()  # may raise
+    ^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joker\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 471, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 121] ÐÅºÅµÆ³¬Ê±Ê±¼äÒÑµ½
+[0m[2023-07-28 12:37:27,816][command/INFO] PyCqBot: ºÚÒ¹ÀïÐ¡°¢ßä (qq=1007361320,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-28 12:37:39,219][command/INFO] PyCqBot: ºÚÒ¹ÀïÐ¡°¢ßä (qq=1007361320,ÈººÅ=375281736) Ê¹ÓÃÖ¸Áî: Ç©µ½[0m
+[0m[2023-07-28 12:49:44,737][MainThread/INFO] PyCqBot: ¼ÓÔØ²å¼þ: myPlugin[0m
+[0m[2023-07-28 12:49:44,740][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-28 12:49:44,763][run_meta_event_lifecycle_connect_0/INFO] PyCqBot: ³É¹¦Á¬½Ó websocket ·þÎñ! bot qq:1755203518[0m
+[0m[2023-07-28 14:10:48,796][MainThread/WARNING] PyCqBot: no close frame received or sent[0m
+[0m[2023-07-28 14:10:48,798][MainThread/WARNING] PyCqBot: 10Ãëºó ÖØÐÂÁ¬½Ó websocket ·þÎñ (1/3)[0m
+[0m[2023-07-28 14:10:58,801][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-28 14:11:00,846][MainThread/WARNING] PyCqBot: [WinError 1225] Ô¶³Ì¼ÆËã»ú¾Ü¾øÍøÂçÁ¬½Ó¡£[0m
+[0m[2023-07-28 14:11:00,848][MainThread/WARNING] PyCqBot: 10Ãëºó ÖØÐÂÁ¬½Ó websocket ·þÎñ (2/3)[0m
+[0m[2023-07-28 14:11:10,850][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-28 14:11:12,885][MainThread/WARNING] PyCqBot: [WinError 1225] Ô¶³Ì¼ÆËã»ú¾Ü¾øÍøÂçÁ¬½Ó¡£[0m
+[0m[2023-07-28 14:11:12,886][MainThread/WARNING] PyCqBot: 10Ãëºó ÖØÐÂÁ¬½Ó websocket ·þÎñ (3/3)[0m
+[0m[2023-07-28 14:11:22,889][MainThread/INFO] PyCqBot: ÕýÔÚÁ¬½Ó go-cqhttp websocket ·þÎñ[0m
+[0m[2023-07-28 14:11:24,929][MainThread/WARNING] PyCqBot: [WinError 1225] Ô¶³Ì¼ÆËã»ú¾Ü¾øÍøÂçÁ¬½Ó¡£[0m
+[0m[2023-07-28 14:11:24,930][MainThread/WARNING] PyCqBot: 10Ãëºó ÖØÐÂÁ¬½Ó websocket ·þÎñ (4/3)[0m
+[0m[2023-07-28 14:11:34,934][MainThread/CRITICAL] PyCqBot: ÎÞ·¨Á¬½Ó websocket ·þÎñ host: ws://127.0.0.1:8080[0m
