@@ -1,10 +1,8 @@
 import json
-import asyncio
 class Message:
     postType = ''
     messageType = ''
     sendId = ''
-    
     def __init__(self,message:str,client) -> None:
         self.client = client
         loadMessage = json.loads(message)
