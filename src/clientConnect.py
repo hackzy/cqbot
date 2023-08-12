@@ -1,6 +1,7 @@
 import websockets
 import asyncio
 from src.message import Message
+from src.userData import user
 #类
 class Connect:
     
@@ -15,13 +16,18 @@ class Connect:
                     print("连接中断，尝试重连...")
                     await asyncio.sleep(3)  # 等待一段时间后重连
 
-    def connectListent(self):
-        asyncio.get_event_loop().run_until_complete(self.startConnect('ws://127.0.0.1:8080',))
+    def connectListent(self,uri):
+        asyncio.get_event_loop().run_until_complete(self.startConnect(uri))
 
     async def information(self,message):
-        ms = Message(message,self)
-        if ms.postType == 'message':
-            await ms.reply('发送测试')
+        msg = Message(message,self)
+        if msg.postType == 'message':
+            await msg.msgAsRead()
+            if msg.message == '签到':
+                u = user(self)
+                ms = u.checkIn(msg.sender)
+                await msg.reply(ms)
+
             
 
     async def send_ms(self,ms):

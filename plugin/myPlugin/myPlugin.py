@@ -11,7 +11,7 @@ class myPlugin(Plugin):
             "type": "all"
         })
     
-    def usr_checkin(self,commed,message:Message):
+    def usr_checkin(self,message:Message):
         u = user(self)
         ms = u.checkIn(message.sender)
         message.reply_not_code(ms)
