@@ -43,7 +43,6 @@ class Message:
         await self.client.send_ms(json.dumps(js))
 
     async def deleteMsg(self):
-        print(type(self.messageId))
         js = {
             "action":'delete_msg',
             'params':{

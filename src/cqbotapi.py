@@ -7,4 +7,7 @@ class bot:
     def loadConfig(self):
         pass
 
-    def 
+    def createBot(self):
+        pass
+
+    def setCommad(self,Commad)
