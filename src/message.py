@@ -1,12 +1,13 @@
 import json
+import asyncio
 class Message:
     postType = ''
     messageType = ''
     sendId = ''
     groupId = 0
     userId = 0
-    def __init__(self,message:str,client) -> None:
-        self.client = client
+    def __init__(self,message:str,cqbot) -> None:
+        self.cqbot = cqbot
         loadMessage = json.loads(message)
         '''主消息类型'''
         try:
@@ -40,8 +41,7 @@ class Message:
             },
             "echo": "test"
         }
-        await self.client.send_ms(json.dumps(js))
-
+        asyncio.create_task(self.cqbot.send(json.dumps(js)))
     async def deleteMsg(self):
         js = {
             "action":'delete_msg',
@@ -49,7 +49,7 @@ class Message:
                 'message_id':self.messageId
             }
         }
-        await self.client.send_ms(json.dumps(js))
+        asyncio.create_task(self.cqbot.send(json.dumps(js)))
 
     async def msgAsRead(self):
         js = {
@@ -59,9 +59,11 @@ class Message:
             },
             'echo':''
         }
-        await self.client.send_ms(json.dumps(js))
+        asyncio.create_task(self.cqbot.send(json.dumps(js)))
 
 class sender:
     def __init__(self,sender) -> None:
         self.id = sender['user_id']
         self.name = sender['nickname']
+        self.sex = sender['sex']
+        self.card = sender['card']
